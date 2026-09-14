@@ -1,0 +1,3 @@
+php setup_admin.php admin@GJ.com 1234
+crea usuario para login,
+en la terminal de laragon.
