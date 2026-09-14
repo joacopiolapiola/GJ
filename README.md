@@ -53,11 +53,7 @@ cp .env.example .env
 # DB_PORT=27017
 # DB_DATABASE=gj
 
-# 5. Generar clave de aplicación (si usas Laravel)
-php artisan key:generate
 
-# 6. Ejecutar migraciones (si las hay)
-php artisan migrate
 ```
 
 ### 4. Iniciar el Servidor Local
@@ -231,11 +227,6 @@ sudo chmod -R 775 /var/www/gj/storage
 sudo chmod -R 775 /var/www/gj/bootstrap/cache
 ```
 
-### 8. Generar Clave de Aplicación (si usas Laravel)
-
-```bash
-php artisan key:generate
-```
 
 ### 9. Configurar SSL con Let's Encrypt (HTTPS)
 
@@ -377,40 +368,4 @@ DB_DATABASE=gj
 DB_USERNAME=
 DB_PASSWORD=
 
-# Mail (opcional)
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.mailtrap.io
-MAIL_PORT=2525
-MAIL_USERNAME=
-MAIL_PASSWORD=
-MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS=noreply@gj.local
 ```
-
----
-
-## 🤝 Contribuir
-
-Para contribuir al proyecto:
-
-1. Haz un fork del repositorio
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit los cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
----
-
-## 📄 Licencia
-
-Este proyecto está bajo licencia [especificar licencia].
-
----
-
-## 📧 Contacto
-
-Para preguntas o soporte: [tu email o información de contacto]
-
----
-
-**Última actualización**: 2026-09-11
