@@ -1,0 +1,13 @@
+user: vboxuser
+pass: 1234
+
+10.0.2.15
+
+esta es una aplicacion que es un CRUD de documentos medicos. 
+hay que tener la posibilidad de guardar un documento en cualquier formato con cada entrada en texto a base de datos (que se guarda en json). 
+la BD esta en mongoDB y despues voy a configurarla en una VM de ubuntuliveserver con nginx.
+ necesito que en main.php se puedan ver los certificados y que se les puedan aplicar filtros para ordenar por fecha o buscar por el campo "persona" del json.
+ que se muestre la entrada del json y un boton que diga "ver documento adjunto" que abra el documento en cualquier formato adjunto (SI ES QUE EXISTE)
+
+
+ 
